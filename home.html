@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHOPZY – Home</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; }
+    header { padding:20px 0; border-bottom:1px solid #eee; }
+    .nav { width:min(1200px,92%); margin:0 auto; display:flex; justify-content:space-between; align-items:center; }
+    .links a { margin-right:20px; text-decoration:none; color:#000; font-weight:600; }
+
+    .hero { position:relative; height:480px; }
+    .hero img { width:100%; height:100%; object-fit:cover; }
+    .hero .title { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:46px; font-weight:700; color:#fff; text-shadow:0 4px 10px rgba(0,0,0,0.4); }
+    .hero .btn { background:#2b80b8; padding:12px 20px; display:inline-block; color:#fff; text-decoration:none; font-weight:700; border-radius:4px; margin-top:20px; }
+
+    .section { width:min(1200px,92%); margin:60px auto; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:30px; margin-top:40px; }
+    .card img { width:100%; height:300px; object-fit:cover; border-radius:4px; }
+    .card h3 { margin:12px 0 4px; font-size:16px; }
+    .card p { color:#2b80b8; font-weight:600; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <h2>SHOPZY</h2>
+    <div class="links">
+      <a href="#" style="color:#2b80b8;">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <img src="image/bg.jpeg" alt="Hero" />
+  <div class="title">STYLIST PICKS BEAT THE HEAT<br><a class="btn" href="shop.html">SHOP NOW</a></div>
+</section>
+
+<section class="section">
+  <h2>Discover NEW Arrivals</h2>
+  <p>Recently added shirts!</p>
+
+  <div class="grid">
+    <a href="product.html" style="text-decoration:none;color:inherit;"><div class="card"><img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=800" /><h3>Plain White Shirt</h3><p>5000RS</p></div></a>
+    <a href="product.html" style="text-decoration:none;color:inherit;"><div class="card"><img src="image/62306cc4a1d211647340740.png" /><h3>Denim Jacket</h3><p>8000RS</p></div></a>
+    <a href="product.html" style="text-decoration:none;color:inherit;"><div class="card"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800" /><h3>Black Polo Shirt</h3><p>8000RS</p></div></a>
+    <a href="product.html" style="text-decoration:none;color:inherit;"><div class="card"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800" /><h3>Blue Sweatshirt</h3><p>8000RS</p></div></a>
+  </div>
+</section>
+
+</body>
+</html>

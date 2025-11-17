@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shopping Cart – SHOPZY</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color:#222; }
+
+    header { padding: 20px 0; border-bottom: 1px solid #eee; }
+    .nav { width:min(1200px,92%); margin:0 auto; display:flex; justify-content:space-between; align-items:center; }
+    .links a { margin-right:20px; text-decoration:none; color:#000; font-weight:600; }
+
+    .page { width:min(1200px,92%); margin:40px auto; }
+
+    .breadcrumb { font-size:14px; color:#666; margin-bottom:30px; }
+
+    table { width:100%; border-collapse: collapse; margin-bottom:40px; }
+    th { text-align:left; font-size:15px; border-bottom:2px solid #ddd; padding:12px 0; }
+    td { padding:18px 0; border-bottom:1px solid #eee; vertical-align:middle; }
+
+    .qty-box { width:40px; padding:6px; text-align:center; border:1px solid #ccc; border-radius:4px; }
+
+    .cart-totals { width:100%; max-width:400px; margin-top:40px; }
+    .line { display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid #eee; }
+
+    .checkout-btn { margin-top:25px; display:inline-block; background:#0d5a97; color:#fff; padding:14px 22px; text-decoration:none; border-radius:4px; font-weight:700; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <h2>SHOPZY</h2>
+    <div class="links">
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+  </div>
+</header>
+
+<div class="page">
+
+  <div class="breadcrumb">HOME / SHOPPING CART</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style="display:flex; align-items:center; gap:15px;">
+          <strong>Blank shirt</strong>
+        </td>
+
+        <td>5000RS</td>
+
+        <td>
+          <input type="number" value="1" class="qty-box" />
+        </td>
+
+        <td>5000RS</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Cart Totals</h2>
+
+  <div class="cart-totals">
+    <div class="line"><span>Subtotal</span><span>5000RS</span></div>
+    <div class="line"><span>Shipping Fee</span><span>FREE!!!</span></div>
+    <div class="line"><strong>Total</strong><strong>5000RS</strong></div>
+
+    <a class="checkout-btn" href="confirmed.html">PROCEED TO CHECKOUT</a>
+  </div>
+
+</div>
+
+</body>
+</html>

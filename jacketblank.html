@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plain White Shirt – Product Detail</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { padding: 20px 0; border-bottom: 1px solid #eee; }
+    .nav { width: min(1200px, 92%); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .links a { margin-right: 20px; text-decoration: none; color: #000; font-weight: 600; }
+
+    .page { width: min(1200px, 92%); margin: 40px auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+
+    .badge { background: #ff7f37; color: #fff; padding: 6px 10px; border-radius: 50px; position: absolute; top: 15px; left: 15px; font-size: 14px; font-weight: 700; }
+    .img-box { position: relative; }
+    .img-box img { width: 100%; border-radius: 4px; }
+
+    .breadcrumb { font-size: 13px; color: #555; margin-bottom: 10px; }
+    .product-title { font-size: 32px; font-weight: 700; margin: 10px 0; }
+
+    .stars { color: #e69720; font-size: 16px; }
+
+    .price-old { text-decoration: line-through; color: #999; margin-right: 10px; }
+    .price-new { color: #2b80b8; font-size: 22px; font-weight: 700; }
+
+    .desc { margin: 20px 0; line-height: 1.6; color: #444; }
+
+    select { width: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+
+    .btn { margin-top: 20px; display: inline-block; padding: 12px 20px; background: #0d5a97; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 700; }
+
+    .meta { margin-top: 20px; color: #444; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+      <h2>SHOPZY</h2>
+      <div class="links">
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page">
+
+    <div class="img-box">
+      <div class="badge">-24%</div>
+      <img src="image/62306cc4a1d211647340740.png" alt="jacket" />
+    </div>
+
+    <div>
+      <div class="breadcrumb">HOME / SHOP / WOMEN / SHOP</div>
+
+      <h1 class="product-title">jacket</h1>
+
+      <div class="stars">★★★★★ <span style="color:#666; font-size:14px;">(15)</span></div>
+
+      <p>
+        <span class="price-old">8000RS</span>
+        <span class="price-new">5000RS</span>
+      </p>
+
+      <p class="desc">
+        A classic Jacket never goes out of style. This is our most premium collection of shirt.
+        This plain white shirt is made up of pure cotton and has a premium finish.
+      </p>
+
+      <label>Select Size</label><br>
+      <select>
+        <option>Select Size</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+
+      <br>
+      <a class="btn" href="jacketquantity.html">ADD TO CART</a>
+
+      <div class="meta">
+        <p><strong>Category:</strong>  Polo, Casual</p>
+        <p><strong>Tags:</strong> Modern, Design, Cotton</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
