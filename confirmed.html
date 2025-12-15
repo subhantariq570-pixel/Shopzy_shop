@@ -4,43 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirm</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: steelblue;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            color: rgb(30, 168, 168);
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            resize: none;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            color: rgb(11, 11, 158);
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            border: none;
+            background-color: steelblue;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4682b4;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+        }
+    </style>
 </head>
-<style>
-    h1 
-    {
-        color: steelblue;
-    }
-    label
-    {
-        color: rgb(30, 168, 168);
-        margin: calc(center);
-        
-    }
-    textarea
-    {
-        color: rgb(11, 11, 158);
-    }
-    
-</style>
+
 <body>
-<h1>Customer Details</h1>
-<label for="Name">Name=</label>
-<textarea name="" id="" rows="1"></textarea>
-<br>
-<br>
-<label for="Address">Address=</label>
-<textarea name="" id="" rows="1"></textarea>
-<br>
-<br>
-<label for="Name">Phone number=</label>
-<textarea name="" id="" rows="1"></textarea>
-<br>
-<br>
-<br>
-<button>Confirm</button>
 
-<h2>Checkout</h2>
+<div class="container">
+    <h1>Customer Details</h1>
 
-    
+    <label>Name</label>
+    <textarea rows="1"></textarea>
+
+    <br><br>
+
+    <label>Address</label>
+    <textarea rows="1"></textarea>
+
+    <br><br>
+
+    <label>Phone Number</label>
+    <textarea rows="1"></textarea>
+
+    <button>Confirm</button>
+
+    <h2>Checkout</h2>
+</div>
+
 </body>
 </html>
